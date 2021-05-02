@@ -1,0 +1,19 @@
+/* FONTS */
+
+/* font-family: 'Kristi', cursive;
+font-family: 'Montez', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+h1 {
+  font-family: "Kristi", cursive;
+  font-size: 60px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+.d-flex {
+  background: pink;
+}
