@@ -11,6 +11,10 @@ font-family: 'Raleway', sans-serif; */
   --secondary-title-font: "Montez", sans-serif;
 }
 
+body {
+  background: #000;
+}
+
 h1 {
   font-family: var(--title-font);
   font-size: 80px;
@@ -24,7 +28,7 @@ h2 {
 }
 
 .hero {
-  background: pink;
+  background: #fff;
   margin: 0;
   text-align: center;
   padding: 200px 0;
@@ -36,10 +40,13 @@ h2 {
   color: black;
   padding: 20px 30px;
   border-radius: 5px;
+  font-family: var(--secondary-title-font);
   transition: all ease-in-out 200ms;
+  font-size: 26px;
 }
 
 .main-contact-btn:hover {
   background: #000;
   color: white;
+  font-family: var(--secondary-title-font);
 }
