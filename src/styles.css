@@ -33,11 +33,11 @@ h2 {
 }
 
 .heading {
-  color: white;
+  color: #fff;
   margin: 50px;
   text-align: center;
-  font-family: var(--secondary-title-font);
-  font-size: 30px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
   padding: 30px;
 }
 
@@ -45,7 +45,7 @@ h2 {
   background: var(--accent-color);
   margin: 0;
   text-align: center;
-  padding: 200px 0;
+  padding: 300px 0;
 }
 
 .main-contact-btn {
@@ -99,5 +99,24 @@ h2 {
 img {
   border-radius: 10px;
   box-shadow: var(--box-shadow);
-  border: 1px solid #aaa;
+  border: 5px solid var(--accent-color);
+}
+
+@media (max-width: 560px) {
+  .app-photo {
+    display: none;
+  }
+
+  .white-paragraph {
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 30px;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
 }
