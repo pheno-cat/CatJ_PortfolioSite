@@ -91,7 +91,8 @@ h2 {
   font-size: 26px;
 }
 
-.white-paragraph {
+.white-paragraph,
+.about-paragraph {
   color: white;
   line-height: 1.5;
 }
@@ -100,6 +101,37 @@ img {
   border-radius: 10px;
   box-shadow: var(--box-shadow);
   border: 5px solid var(--accent-color);
+}
+
+.projects-btn {
+  border: 1px solid var(--accent-color);
+  background: var(--accent-color);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: var(--secondary-title-font);
+  text-decoration: none;
+  color: #aaa;
+  font-size: 22px;
+  transition: all ease-in-out 200ms;
+  box-shadow: var(--box-shadow);
+}
+
+.projects-btn:hover {
+  background: #aaa;
+  color: var(--accent-color);
+}
+
+.about-subheading {
+  font-family: var(--secondary-title-font);
+  font-weight: bold;
+  font-size: 26px;
+  color: var(--accent-color);
+}
+
+.headshot {
+  width: 250px;
+  height: auto;
+  margin: 30px;
 }
 
 @media (max-width: 560px) {
@@ -118,5 +150,29 @@ img {
 
   h2 {
     font-size: 16px;
+  }
+
+  .about-paragraph {
+    font-size: 12px;
+  }
+
+  .about-subheading {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .headshot {
+    width: 200px;
+    height: auto;
+  }
+
+  .about-heading {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .about {
+    text-align: center;
   }
 }
