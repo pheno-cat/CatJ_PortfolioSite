@@ -122,7 +122,7 @@ img {
 }
 
 .about-subheading {
-  font-family: var(--secondary-title-font);
+  font-family: var(--body-font);
   font-weight: bold;
   font-size: 26px;
   color: var(--accent-color);
@@ -134,7 +134,7 @@ img {
   margin: 30px;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 768px) {
   .app-photo {
     display: none;
   }
@@ -154,17 +154,22 @@ img {
 
   .about-paragraph {
     font-size: 12px;
+    color: #000;
   }
 
   .about-subheading {
-    font-size: 16px;
+    font-size: 14px;
     padding: 0;
     margin: 0;
+    color: #aaa;
+    font-weight: bold;
   }
 
   .headshot {
     width: 200px;
     height: auto;
+    margin: 0 0 20px 0;
+    padding: 0;
   }
 
   .about-heading {
@@ -174,5 +179,12 @@ img {
 
   .about {
     text-align: center;
+    margin: 0;
+  }
+
+  .non-image {
+    background: var(--accent-color);
+    margin-top: 0;
+    padding: 50px;
   }
 }
