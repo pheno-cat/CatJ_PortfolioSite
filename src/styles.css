@@ -124,8 +124,12 @@ img {
 .about-subheading {
   font-family: var(--body-font);
   font-weight: bold;
-  font-size: 26px;
+  font-size: 22px;
   color: var(--accent-color);
+}
+
+.about-heading {
+  font-size: 60px;
 }
 
 .headshot {
@@ -168,7 +172,7 @@ img {
   .headshot {
     width: 200px;
     height: auto;
-    margin: 0 0 20px 0;
+    margin-bottom: 10px;
     padding: 0;
   }
 
@@ -184,7 +188,7 @@ img {
 
   .non-image {
     background: var(--accent-color);
-    margin-top: 0;
+    margin: 0;
     padding: 50px;
   }
 }
