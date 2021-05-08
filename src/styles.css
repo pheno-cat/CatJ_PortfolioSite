@@ -5,18 +5,19 @@ font-family: 'Kristi', cursive;
 font-family: 'Montez', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Permanent Marker', cursive;
-font-family: 'Raleway', sans-serif; */
+font-family: 'Raleway', sans-serif; 
+font-family: 'Julius Sans One', sans-serif;*/
 
 :root {
   --title-font: "Kristi", cursive;
   --body-font: "Raleway", sans-serif;
-  --secondary-title-font: "Kaushan Script", cursive;
+  --secondary-title-font: "Julius Sans One", sans-serif;
   --box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   --accent-color: #f6dcbf;
 }
 
 body {
-  background: #aaa;
+  background: #fff;
 }
 
 h1 {
@@ -32,12 +33,18 @@ h2 {
   color: #aaa;
 }
 
+h5 {
+  font-style: italic;
+  font-family: var(--secondary-title-font);
+  color: #aaa;
+}
+
 .heading {
-  color: #fff;
+  color: #aaa;
   margin: 50px;
   text-align: center;
-  font-family: "Permanent Marker", cursive;
-  font-size: 40px;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 34px;
   padding: 30px;
 }
 
@@ -45,7 +52,7 @@ h2 {
   background: var(--accent-color);
   margin: 0;
   text-align: center;
-  padding: 300px 0;
+  padding: 300px;
 }
 
 .main-contact-btn {
@@ -55,81 +62,89 @@ h2 {
   color: #000;
   padding: 10px 30px;
   border-radius: 5px;
-  font-family: var(--secondary-title-font);
+  font-family: var(--title-font);
   transition: all ease-in-out 200ms;
-  font-size: 26px;
+  font-size: 40px;
 }
 
 .main-contact-btn:hover {
   background: #aaa;
   border: 1px solid #aaa;
   color: white;
-  font-family: var(--secondary-title-font);
 }
 
 .project-launch-btn {
-  border: 1px solid var(--accent-color);
-  background: var(--accent-color);
+  border: 1px solid #000;
+
   border-radius: 5px;
   padding: 10px 20px;
   font-family: var(--secondary-title-font);
   text-decoration: none;
-  color: #aaa;
-  font-size: 22px;
+  color: #000;
+  font-size: 16px;
   transition: all ease-in-out 200ms;
-  box-shadow: var(--box-shadow);
 }
 
 .project-launch-btn:hover {
-  background: #aaa;
-  color: var(--accent-color);
+  background: #000;
+  color: #fff;
 }
 
 .project-heading {
-  color: var(--accent-color);
+  color: #000;
   font-family: var(--secondary-title-font);
-  font-size: 26px;
+  font-size: 22px;
 }
 
-.white-paragraph,
-.about-paragraph {
-  color: white;
+.white-paragraph {
+  color: #aaa;
   line-height: 1.5;
+}
+
+.about-paragraph {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.non-image {
+  background: var(--accent-color);
+  margin-top: 0;
+  padding: 75px;
 }
 
 img {
   border-radius: 10px;
   box-shadow: var(--box-shadow);
-  border: 5px solid var(--accent-color);
+  border: 1px solid #000;
 }
 
 .projects-btn {
-  border: 1px solid var(--accent-color);
+  border: 1px solid #000;
   background: var(--accent-color);
   border-radius: 5px;
   padding: 10px 20px;
   font-family: var(--secondary-title-font);
   text-decoration: none;
-  color: #aaa;
-  font-size: 22px;
+  color: #000;
+  font-size: 16px;
   transition: all ease-in-out 200ms;
-  box-shadow: var(--box-shadow);
 }
 
 .projects-btn:hover {
   background: #aaa;
-  color: var(--accent-color);
+  border: 1px solid #aaa;
+  color: #fff;
 }
 
 .about-subheading {
-  font-family: var(--body-font);
+  font-family: var(--secondary-title-font);
   font-weight: bold;
-  font-size: 22px;
-  color: var(--accent-color);
+  font-size: 26px;
 }
 
 .about-heading {
-  font-size: 60px;
+  font-size: 36px;
+  font-family: var(--secondary-title-font);
 }
 
 .headshot {
@@ -137,6 +152,32 @@ img {
   height: auto;
   margin: 30px;
 }
+
+.work p {
+  font-family: var(--body-font);
+  color: #aaa;
+}
+
+.work-subtitle {
+  font-family: var(--title-font);
+  font-size: 50px;
+}
+
+.work-project-titles {
+  font-family: var(--secondary-title-font);
+  color: #000;
+}
+
+.hero {
+  padding: 150px;
+}
+
+.heading p {
+  font-family: var(--title-font);
+  font-size: 60px;
+}
+
+/* MEDIA QUERY */
 
 @media (max-width: 576px) {
   .app-photo {
@@ -158,12 +199,11 @@ img {
   }
 
   .about-paragraph {
-    font-size: 12px;
-    color: #000;
+    font-size: 14px;
   }
 
   .about-subheading {
-    font-size: 14px;
+    font-size: 22px;
     padding: 0;
     margin: 0;
     color: #aaa;
@@ -178,7 +218,7 @@ img {
   }
 
   .about-heading {
-    font-size: 50px;
+    font-size: 32px;
     margin: 0;
   }
 
@@ -191,5 +231,14 @@ img {
     background: var(--accent-color);
     margin: 0;
     padding: 50px;
+  }
+
+  .projects-btn {
+    font-size: 12px;
+  }
+
+  .work h2,
+  p {
+    text-align: center;
   }
 }
