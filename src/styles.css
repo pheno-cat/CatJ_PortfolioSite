@@ -169,6 +169,9 @@ img {
 }
 
 .hero {
+  background: var(--accent-color);
+  margin: 0;
+  text-align: center;
   padding: 150px;
 }
 
