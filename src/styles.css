@@ -48,7 +48,7 @@ h5 {
   padding: 30px;
 }
 
-.hero {
+.home-hero {
   background: var(--accent-color);
   margin: 0;
   text-align: center;
@@ -166,10 +166,6 @@ img {
 .work-project-titles {
   font-family: var(--secondary-title-font);
   color: #000;
-}
-
-.home-hero {
-  padding: 250px;
 }
 
 .hero {
