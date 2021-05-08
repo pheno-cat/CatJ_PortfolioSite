@@ -168,6 +168,10 @@ img {
   color: #000;
 }
 
+.home-hero {
+  padding: 250px;
+}
+
 .hero {
   padding: 150px;
 }
