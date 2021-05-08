@@ -52,7 +52,7 @@ h5 {
   background: var(--accent-color);
   margin: 0;
   text-align: center;
-  padding: 300px;
+  padding: 350px;
 }
 
 .main-contact-btn {
@@ -189,6 +189,15 @@ img {
 
   .white-paragraph {
     text-align: center;
+  }
+
+  .home-hero {
+    padding: 350px 0;
+  }
+
+  .home-hero h1 {
+    text-align: center;
+    font-size: 60px;
   }
 
   .heading,
