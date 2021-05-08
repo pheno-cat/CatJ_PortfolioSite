@@ -110,6 +110,7 @@ h5 {
   background: var(--accent-color);
   margin-top: 0;
   padding: 150px;
+  box-shadow: var(--box-shadow);
 }
 
 .headshot-side {
@@ -177,11 +178,26 @@ img {
   margin: 0;
   text-align: center;
   padding: 150px;
+  box-shadow: var(--box-shadow);
 }
 
 .heading p {
   font-family: var(--title-font);
   font-size: 60px;
+}
+
+.top-link {
+  text-decoration: none;
+  color: #aaa;
+  font-family: var(--secondary-title-font);
+}
+
+.top-link:hover {
+  font-style: italic;
+  color: #000;
+  background: var(--accent-color);
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 /* MEDIA QUERY */
