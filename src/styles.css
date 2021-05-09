@@ -201,6 +201,26 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+.contact h3 {
+  font-family: var(--secondary-title-font);
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #aaa;
+  transition: all ease-in-out 200ms;
+}
+
+.contact-link:hover {
+  font-style: italic;
+  color: #000;
+}
+
+.contact-icon {
+  font-size: 30px;
+  background: #fff;
+}
+
 /* MEDIA QUERY */
 
 @media (max-width: 576px) {
