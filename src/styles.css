@@ -20,9 +20,32 @@ body {
   background: #fff;
 }
 
+hr {
+  width: 35%;
+}
+
+.navbar-brand {
+  font-family: var(--title-font);
+  font-size: 60px;
+}
+
+.navbar-custom {
+  background: #aaa;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-family: var(--secondary-title-font);
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  font-weight: bolder;
+}
+
 h1 {
   font-family: var(--title-font);
-  font-size: 80px;
+  font-size: 100px;
   margin: 10px;
 }
 
@@ -108,13 +131,14 @@ h5 {
 
 .non-image {
   background: var(--accent-color);
-  margin-top: 0;
-  padding: 150px;
+  margin-top: 50px;
+  padding: 100px;
   box-shadow: var(--box-shadow);
+  border-radius: 10px;
 }
 
 .headshot-side {
-  padding: 150px;
+  padding: 80px;
 }
 
 img {
@@ -177,7 +201,7 @@ img {
   background: var(--accent-color);
   margin: 0;
   text-align: center;
-  padding: 150px;
+  padding: 90px;
   box-shadow: var(--box-shadow);
 }
 
