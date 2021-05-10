@@ -281,6 +281,11 @@ img {
   .home-hero {
     padding: 350px 100px;
   }
+  .non-image {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
