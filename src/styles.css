@@ -367,4 +367,7 @@ img {
   p {
     text-align: center;
   }
+  .work-subtitle {
+    font-size: 40px;
+  }
 }
