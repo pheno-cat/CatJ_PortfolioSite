@@ -371,4 +371,9 @@ img {
   .work-subtitle {
     font-size: 40px;
   }
+
+  .home-hero {
+    padding: 0;
+    margin: 0;
+  }
 }
