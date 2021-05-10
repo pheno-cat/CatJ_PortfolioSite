@@ -371,4 +371,8 @@ img {
   .work-subtitle {
     font-size: 40px;
   }
+
+  .work-hero {
+    padding: 80px;
+  }
 }
