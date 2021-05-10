@@ -83,7 +83,10 @@ h5 {
   background: var(--accent-color);
   margin: 0;
   text-align: center;
-  padding: 350px;
+  padding-top: 450px;
+  padding-right: 350px;
+  padding-bottom: 350px;
+  padding-left: 350px;
 }
 
 .main-contact-btn {
