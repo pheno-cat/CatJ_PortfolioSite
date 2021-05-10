@@ -380,3 +380,9 @@ img {
     padding: 60px;
   }
 }
+
+@media (max-width: 768px) {
+  .home-hero {
+    padding: 350px 100px;
+  }
+}
