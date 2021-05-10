@@ -375,4 +375,8 @@ img {
   .work-hero {
     padding: 80px;
   }
+
+  .hero {
+    padding: 60px;
+  }
 }
