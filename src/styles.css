@@ -283,6 +283,10 @@ img {
   background: #fff;
 }
 
+.contact-title {
+  font-size: 18px;
+}
+
 /* MEDIA QUERY */
 
 @media (max-width: 768px) {
@@ -401,5 +405,13 @@ img {
 
   .hero {
     padding: 60px;
+  }
+
+  .footer-text {
+    font-size: 10px;
+  }
+
+  .contact-title {
+    font-size: 14px;
   }
 }
