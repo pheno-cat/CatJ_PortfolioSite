@@ -137,7 +137,8 @@ h5 {
 
 .about-paragraph {
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: lighter;
 }
 
 .non-image {
