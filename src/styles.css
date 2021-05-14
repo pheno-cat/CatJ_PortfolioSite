@@ -205,7 +205,7 @@ img {
 
 .work-subtitle {
   font-family: var(--title-font);
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .work-project-titles {
@@ -413,5 +413,9 @@ img {
 
   .contact-title {
     font-size: 14px;
+  }
+
+  .work-subtitle {
+    font-size: 24px;
   }
 }
