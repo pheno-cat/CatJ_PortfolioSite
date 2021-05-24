@@ -74,6 +74,15 @@ h5 {
   font-size: 16px;
 }
 
+.source-link {
+  text-decoration: none;
+  transition: all ease-in-out 200ms;
+}
+
+.source-link:hover {
+  font-style: italic;
+}
+
 .heading {
   color: #aaa;
   margin: 50px;
