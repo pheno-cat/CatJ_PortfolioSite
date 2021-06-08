@@ -231,7 +231,7 @@ img {
 }
 
 .work-hero {
-  background: var(--accent-color);
+  background: black;
   margin-top: 50px;
   text-align: center;
   padding: 150px;
