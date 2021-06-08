@@ -297,6 +297,10 @@ img {
   font-size: 18px;
 }
 
+strong {
+  color: var(--accent-color);
+}
+
 /* MEDIA QUERY */
 
 @media (max-width: 768px) {
