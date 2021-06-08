@@ -215,6 +215,7 @@ img {
 .work-subtitle {
   font-family: var(--title-font);
   font-size: 40px;
+  color: var(--accent-color);
 }
 
 .work-project-titles {
