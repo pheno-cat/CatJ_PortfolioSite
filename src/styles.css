@@ -32,7 +32,7 @@ hr {
   margin-top: 50px;
 }
 
-.navbar-brand {
+.name {
   font-family: var(--title-font);
   font-size: 60px;
   color: var(--accent-color);
