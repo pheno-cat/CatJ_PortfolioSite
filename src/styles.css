@@ -64,6 +64,12 @@ h2 {
   color: #aaa;
 }
 
+.index-sub-heading {
+  font-family: var(--secondary-title-font);
+  font-size: 20px;
+  color: #aaa;
+}
+
 h5 {
   font-style: italic;
   font-family: var(--secondary-title-font);
