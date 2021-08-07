@@ -265,6 +265,19 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+.launch-btn {
+  text-decoration: none;
+  color: #aaa;
+  background-color: white;
+  font-family: var(--secondary-title-font);
+  border-radius: 5px;
+}
+
+.launch-btn:hover {
+  box-shadow: var(--box-shadow);
+  
+}
+
 .contact h3 {
   font-family: var(--secondary-title-font);
 }
