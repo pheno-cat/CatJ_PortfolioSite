@@ -254,7 +254,7 @@ img {
   text-decoration: none;
   color: #aaa;
   font-family: var(--secondary-title-font);
- 
+  transition: all ease-in-out 200ms;
 }
 
 .top-link:hover {
@@ -274,6 +274,7 @@ img {
   border-radius: 5px;
   box-shadow: var(--box-shadow);
   padding: 10px 20px;
+  transition: all ease-in-out 200ms;
 }
 
 .launch-btn:hover {
