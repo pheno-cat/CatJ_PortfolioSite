@@ -180,6 +180,12 @@ img {
   border: 1px solid #000;
 }
 
+.work-img {
+  box-shadow: var(--box-shadow);
+  border: none;
+  border-radius: none;
+}
+
 .projects-btn {
   border: 1px solid #000;
   background: var(--accent-color);
@@ -236,14 +242,6 @@ img {
   margin: 0;
   text-align: center;
   padding: 90px;
-  box-shadow: var(--box-shadow);
-}
-
-.work-hero {
-  background: rgb(245, 232, 232);
-  margin-top: 50px;
-  text-align: center;
-  padding: 150px;
   box-shadow: var(--box-shadow);
 }
 
