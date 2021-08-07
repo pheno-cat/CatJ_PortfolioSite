@@ -254,6 +254,7 @@ img {
   text-decoration: none;
   color: #aaa;
   font-family: var(--secondary-title-font);
+ 
 }
 
 .top-link:hover {
@@ -271,10 +272,12 @@ img {
   background-color: white;
   font-family: var(--secondary-title-font);
   border-radius: 5px;
+  box-shadow: var(--shadow);
 }
 
 .launch-btn:hover {
-  box-shadow: var(--box-shadow);
+ color: white;
+ background-color: #aaa;
   
 }
 
