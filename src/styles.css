@@ -272,7 +272,8 @@ img {
   background-color: white;
   font-family: var(--secondary-title-font);
   border-radius: 5px;
-  box-shadow: var(--shadow);
+  box-shadow: var(--box-shadow);
+  padding: 10px 20px;
 }
 
 .launch-btn:hover {
