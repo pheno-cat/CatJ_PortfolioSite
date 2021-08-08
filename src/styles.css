@@ -32,11 +32,7 @@ hr {
   margin-top: 50px;
 }
 
-.about-intro {
-  font-family: var(--title-font);
-  font-size: 40px;
-  color: #aaa;
-}
+
 
 .name {
   font-family: var(--title-font);
@@ -335,6 +331,12 @@ img {
 
 strong {
   color: var(--accent-color);
+}
+
+.about-intro {
+  font-family: var(--title-font);
+  font-size: 40px;
+  color: #aaa;
 }
 
 /* MEDIA QUERY */
