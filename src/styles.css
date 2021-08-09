@@ -327,6 +327,7 @@ img {
 .work-icon:hover {
   cursor: pointer;
   color: var(--accent-color);
+  box-shadow: var(--box-shadow);
 }
 
 .contact-title {
