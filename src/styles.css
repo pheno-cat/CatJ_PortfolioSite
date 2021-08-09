@@ -321,6 +321,12 @@ img {
   font-size: 30px;
   background: #fff;
   color: #aaa;
+  transition: all ease-in-out 200ms;
+}
+
+.work-icon:hover {
+  cursor: pointer;
+  color: var(--accent-color);
 }
 
 .contact-title {
