@@ -175,6 +175,10 @@ h5 {
   padding: 80px;
 }
 
+img {
+  border-radius: 10px;
+}
+
 .projects-btn {
   border: 1px solid #000;
   background: var(--accent-color);
