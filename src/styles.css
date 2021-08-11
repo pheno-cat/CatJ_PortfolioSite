@@ -317,6 +317,7 @@ img {
   padding: 5px 5px;
   box-shadow: var(--box-shadow);
   border-radius: 10px;
+  margin-bottom: 0;
 }
 
 .work-icon:hover {
