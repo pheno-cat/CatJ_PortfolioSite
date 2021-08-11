@@ -314,12 +314,13 @@ img {
   background: #fff;
   color: #aaa;
   transition: all ease-in-out 200ms;
+  padding: 10px;
+  box-shadow: var(--box-shadow);
 }
 
 .work-icon:hover {
   cursor: pointer;
   color: var(--accent-color);
-  box-shadow: var(--box-shadow);
 }
 
 .contact-title {
