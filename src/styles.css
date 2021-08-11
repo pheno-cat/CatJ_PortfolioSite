@@ -167,6 +167,7 @@ h5 {
   background: var(--accent-color);
   margin-top: 50px;
   padding: 50px;
+  padding-bottom: 50px;
   box-shadow: var(--box-shadow);
   border-radius: 10px;
 }
