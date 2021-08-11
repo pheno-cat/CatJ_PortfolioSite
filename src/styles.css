@@ -324,6 +324,10 @@ img {
   color: var(--accent-color);
 }
 
+.event-img {
+  box-shadow: 2px rgba(0, 0, 0, 0.3);
+}
+
 .contact-title {
   font-size: 18px;
 }
