@@ -166,7 +166,7 @@ h5 {
 .non-image {
   background: var(--accent-color);
   margin-top: 50px;
-  padding: 100px;
+  padding: 75px;
   box-shadow: var(--box-shadow);
   border-radius: 10px;
 }
