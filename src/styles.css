@@ -13,7 +13,7 @@ font-family: 'Julius Sans One', sans-serif;*/
   --body-font: "Raleway", sans-serif;
   --secondary-title-font: "Julius Sans One", sans-serif;
   --box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-  --accent-color: rgb(245, 232, 232);
+  --accent-color: #e1bc91;
 }
 
 body {
