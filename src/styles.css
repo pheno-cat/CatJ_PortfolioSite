@@ -252,6 +252,7 @@ img {
 }
 
 .top-link:hover {
+  color: #aaa;
   background: var(--accent-color);
   padding: 10px 20px;
   border-radius: 5px;
