@@ -1,19 +1,15 @@
 /* FONTS */
 
-/* font-family: 'Kaushan Script', cursive;
-font-family: 'Kristi', cursive;
-font-family: 'Montez', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Permanent Marker', cursive;
-font-family: 'Raleway', sans-serif; 
-font-family: 'Julius Sans One', sans-serif;*/
+/*font-family: 'Bungee Outline', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Poppins', sans-serif;*/
 
 :root {
-  --title-font: "Kristi", cursive;
-  --body-font: "Raleway", sans-serif;
-  --secondary-title-font: "Julius Sans One", sans-serif;
+  --title-font: "Bungee Outline", cursive;
+  --body-font: "Poppins", sans-serif;
+  --secondary-title-font: "Cabin Sketch", sans-serif;
   --box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-  --accent-color: #ffe5b9;
+  --accent-color: #f2d4ca;
 }
 
 body {
